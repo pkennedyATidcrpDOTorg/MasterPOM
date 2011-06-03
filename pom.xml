@@ -1,9 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project 
+    xmlns="http://maven.apache.org/POM/4.0.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 
-<!-- master pom, Maven 2.2 version. -->
-
+    <!-- master pom, Maven 2.2 version. -->
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.idcrp.util.maven.maven22</groupId>
@@ -16,7 +17,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 
 
     <description>
-		Master POM for Maven 2.2
+        Master POM for Maven 2.2
     </description>
 
     <!-- Build Settings -->
@@ -27,15 +28,15 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
-                    <archive>
-					<!--
-						Put this in your child POM to make this work.
+                <archive>
+                    <!--
+                        Put this in your child POM to make this work.
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <mainClass>org.idcrp.util.icd9.ICD9.GUI</mainClass>
                         </manifest>
-					-->
-                    </archive>
+                    -->
+                </archive>
                 </configuration>
             </plugin>
 
