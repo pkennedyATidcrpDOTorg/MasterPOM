@@ -1,2 +1,4 @@
-This is an attempt to have a commonly versioned master pom.xml for
-version 2.2 of maven.
+This is an attempt to have a commonly versioned master pom.xml for various
+versions of Maven.  Currently there is only support for 2.2, but I see that
+there is a need to make migration attemps to Maven 3.0.
+
